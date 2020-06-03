@@ -1,17 +1,126 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 3
+      Desenhos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-list>
+
+    <ion-col routerLink="/rick-morty">
+      <ion-item lines="full">
+        <ion-thumbnail slot="start">
+          <img src="assets/RickeMorty.jpg">
+        </ion-thumbnail>
+        <ion-label>
+          Rick e Morty
+        </ion-label>
+        <div slot="end" class="c100 p87 small green">
+          <span>87%</span>
+          <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+          </div>
+        </div>
+      </ion-item>
+    </ion-col>
+
+    <ion-col routerLink="/irmao-do-jorel">
+      <ion-item lines="full">
+        <ion-thumbnail slot="start">
+          <img src="assets/jorel.jpg">
+        </ion-thumbnail>
+        <ion-label>
+          Irmão do Jorel
+        </ion-label>
+        <div slot="end" class="c100 p85 small green">
+          <span>85%</span>
+          <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+          </div>
+        </div>
+      </ion-item>
+    </ion-col>
+
+
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+        <img src="assets/death.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        Death Note
+      </ion-label>
+
+      <div slot="end" class="c100 p84 small green">
+        <span>84%</span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+    </ion-item>
+
+
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+        <img src="assets/coraline.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        Coraline
+      </ion-label>
+
+      <div slot="end" class="c100 p76 small orange">
+        <span>76%</span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+    </ion-item>
+
+
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+        <img src="assets/trolls.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        Trolls
+      </ion-label>
+
+      <div slot="end" class="c100 p66 small orange">
+        <span>66%</span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+    </ion-item>
+
+
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+        <img src="assets/reef.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        Reef 2
+      </ion-label>
+
+      <div slot="end" class="c100 p41 small ">
+        <span>41%</span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+    </ion-item>
+
+
+
+
+  </ion-list>
+
 </ion-content>
